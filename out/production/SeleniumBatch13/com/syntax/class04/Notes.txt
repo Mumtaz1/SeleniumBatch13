@@ -1,0 +1,58 @@
+Selenium Class 4:
+
+CSS Selectors (Cascading Style Sheet):
+    It is another way of locating elements on the web page.
+
+Syntax:
+    tagname[attribute = 'attribute value']
+    e.g., input[value = 'LOGIN']
+
+CSS does not give us an opportunity to locate the elements by its text.
+
+Shortcuts for CSS:
+    1. shortcut for the className --> "." (don't use double quotes)
+
+        Syntax: tagname.classNameValue
+        e.g., input.button
+
+    2. shortcut for the id --> "#" (don't use double quotes)
+
+        Syntax: tagname#id
+        e.g., input#txtPassword
+
+contains() method in CSS:
+    * symbol represents contains method.
+    Syntax: tagname[attribute *= 'partial attribute value']
+    e.g., input[placeholder *= 'phone']
+
+starts-with method in CSS:
+    ^ (CircumFlex) symbol represents starts-with method.
+    Syntax: tagname[attribute ^= 'starting attribute value']
+    e.g., input[aria-label ^= 'Pass']
+
+ends-with method in CSS:
+    $ symbol represents ends-with method in CSS.
+    Syntax: tagname[attribute $= 'ending attribute value']
+    e.g., a[href $= 'login']
+
+Xpath vs. CSS
+    - CSS cannot locate the elements by text whereas xpath can.
+    - CSS has shortcuts.
+    - xpath does not have ends-with method
+    - CSS is faster than xpath in locating elements.
+    - CSS has more simple syntax than xpath.
+
+WebElement Commands:
+    Consists of several methods where we can perform an action and get the element state on the webpage.
+
+1. isEnabled() --> boolean
+2. isDisplayed() --> boolean
+3. isSelected() --> boolean
+4. clear() --> void
+5. getText() --> String
+6. getAttribute() --> String
+7. submit() --> void
+
+
+
+
