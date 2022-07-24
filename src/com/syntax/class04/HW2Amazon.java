@@ -25,12 +25,16 @@ public class HW2Amazon {
         List<WebElement> allLinks = driver.findElements(By.tagName("a"));
         System.out.println("Number of links " + allLinks.size());
 
+        int numLinksWithText = 0;
         for(WebElement link : allLinks) {
             String linkText = link.getText();
             String fullLink = link.getAttribute("href");
             if(!linkText.isEmpty()) {
+                numLinksWithText ++;
                 System.out.println(linkText + "---->" + fullLink);
             }
         }
+        System.out.println("Number of links with text is: " + numLinksWithText);
+        driver.quit();
     }
 }

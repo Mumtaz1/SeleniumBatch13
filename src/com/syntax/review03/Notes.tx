@@ -1,0 +1,32 @@
+*** Selenium Review 03 ****
+
+Checkboxes:
+
+Single Select dropdown:
+    If it has a sleect we can use select class from Selenium and select any desired
+    option by 3 different ways:
+    1. selectByIndex
+    2.selectByValue
+    3.SelectByVisibleText
+
+Steps to deal with DD:
+1. Inspect the dropDown, does it have a select tag? If yes then proceed with step 2
+2. Write down the locator (xpath, css) to ge this particular drop down in Selenium
+3. Create an object of the select class and pass in the "webelement select" as parameter
+4. Use select class to make selection of the desired option.
+
+Difference in multi select and single select:
+    1. In multi select we have option of deselect
+    2. In multi select we can select more than one value at a time
+
+----------------------------------------
+
+Alerts:
+    Popup - that takes the control off the screen and moves the focus on alert
+    We need to handle the alert in order to proceed with automation !!!
+
+ Types of Alerts:
+    1. HTML alerts / Web based --> we can inspect them and deal with them in a regular manner
+    2. JavaScrip / browser alert --> we can handle them using Selenium by switching to them and
+       then either accepting or declining them
+    3. Windows based alerts --> We can't handle them using Selenium

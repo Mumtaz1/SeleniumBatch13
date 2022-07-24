@@ -7,7 +7,7 @@ How many ways we can actually test?
 -- manual
 -- automation
 
-When do we go for automation tesitng?
+When do we go for automation testing?
 -- after manual testing is passed
 -- when environment is stable
 -- analyze our test suite and choose our automation tools

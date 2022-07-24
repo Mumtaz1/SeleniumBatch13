@@ -1,0 +1,24 @@
+Selenium Review 02:
+
+<html>
+	<head>
+		<title>who am i</title>
+	</head>
+	<body>
+		<div>
+			<label>heelo</label>
+		</div>
+		<div>
+			<input>enter your name</input>  ->-<-
+		</div>
+	</body>
+</html>
+/html/body/div[2]/input
+absolute xpath:
+/html/head/title   -> to get the title
+/html/body/div/input  -> to get to input tag
+
+===================
+
+Relative xpath:
+

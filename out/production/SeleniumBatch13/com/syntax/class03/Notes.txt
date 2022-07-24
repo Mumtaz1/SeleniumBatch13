@@ -64,9 +64,3 @@ click on simple form demo
 enter any text on first text box
 click on show message
 quit the browser
-
-
-
-
-
-
